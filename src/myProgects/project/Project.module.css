@@ -1,0 +1,21 @@
+.project {
+    width: 400px;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.photo {
+    width: 400px;
+    height: 300px;
+    background-color: olive;
+    border: 1px solid;
+}
+
+.buttonSee {
+    width: 80px;
+    height: 30px;
+    margin-top: 150px;
+}
