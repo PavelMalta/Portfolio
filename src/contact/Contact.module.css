@@ -7,6 +7,10 @@
     flex-direction: column;
 }
 
+.title{
+    background-color: burlywood;
+}
+
 .contacts {
     width: 60%;
     height: 40%;

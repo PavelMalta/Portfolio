@@ -1,0 +1,11 @@
+.teleworkBlock {
+    height: 30vh;
+}
+
+.teleworkContainer{
+    flex-direction: column;
+}
+
+.title{
+    background-color: burlywood;
+}
