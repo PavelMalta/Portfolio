@@ -2,8 +2,9 @@ import React from "react"
 import './App.css';
 import {Header} from "./header/Header";
 import {Main} from "./main/Main";
-import { MyProjects } from "./myProgects/MyProjects";
+import {MyProjects} from "./myProgects/MyProjects";
 import {Skills} from "./skills/Skills";
+import {Contact} from "./contact/Contact";
 
 function App() {
     return (
@@ -12,6 +13,7 @@ function App() {
             <Main/>
             <Skills/>
             <MyProjects/>
+            <Contact/>
         </div>
     );
 }
