@@ -12,24 +12,17 @@
 }
 
 .contacts {
-    width: 60%;
-    height: 40%;
+    width: 50%;
+    height: 30%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
 
 .input {
     width: 99%;
-    height: 120%;
-}
-
-.textareaContainer {
-    height: 60%;
 }
 
 .textarea {
     width: 99%;
-    height: 100%;
 }
