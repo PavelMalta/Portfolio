@@ -14,7 +14,7 @@ export function Footer() {
                     <div className={s.icon}></div>
                 </div>
                 <div>
-                    <p className={s.title}>&#169; 2021 Все права защищены</p>
+                    <p className={s.title}>&#169; 2021 All Rights Reserved</p>
                 </div>
             </div>
         </div>

@@ -8,7 +8,7 @@ export function Main() {
             <div className={styleContainer.container}>
                 <div className={s.greeting}>
                     <span>Hi There</span>
-                    <h1>I am Pavel Shamashov</h1>
+                    <h1 className={s.name}>I am Pavel Shamashov</h1>
                     <p>Frontend Developer</p>
                 </div>
                 <div className={s.photo}></div>
