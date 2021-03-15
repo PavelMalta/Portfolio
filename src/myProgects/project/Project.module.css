@@ -17,13 +17,16 @@
     box-sizing: border-box;
 }
 
-.project h3 {
+.projectTitle {
     font-family: 'Bazar', sans-serif;
     text-transform: uppercase;
 }
 
 .description {
     font-family: "Roboto Slab", sans-serif;
+    line-height: 1.8;
+    margin: 0 0 1.6em 0;
+    font-size: 12px
 }
 
 .imgContainer {

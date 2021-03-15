@@ -1,6 +1,20 @@
+@font-face {
+   font-family: 'Bazar';
+   src: url('../common/fonts/Bazar.eot');
+   src: local('☺'), url('../common/fonts/Bazar.woff') format('woff'), url('../common/fonts/Bazar.ttf') format('truetype'), url('../common/fonts/Bazar.svg') format('svg');
+   font-weight: normal;
+   font-style: normal;
+}
+
 .nav {
    display: flex;
-   justify-content: space-between;
-   width: 300px;
+   justify-content: space-around;
+   width: 100%;
    border: 1px solid;
+}
+
+.nav a {
+   font-family: "Bazar", sans-serif;
+   text-transform: uppercase;
+   color: #F6EDD8;
 }
