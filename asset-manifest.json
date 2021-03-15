@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.c77c8a42.chunk.css",
-    "main.js": "/Portfolio/static/js/main.8da26eb5.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.8da26eb5.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.51258010.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.51258010.js.map",
-    "static/js/2.0f62ee81.chunk.js": "/Portfolio/static/js/2.0f62ee81.chunk.js",
-    "static/js/2.0f62ee81.chunk.js.map": "/Portfolio/static/js/2.0f62ee81.chunk.js.map",
-    "static/js/3.1eec2b8c.chunk.js": "/Portfolio/static/js/3.1eec2b8c.chunk.js",
-    "static/js/3.1eec2b8c.chunk.js.map": "/Portfolio/static/js/3.1eec2b8c.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.453b146d.chunk.css",
+    "main.js": "/Portfolio/static/js/main.ae2ccc1f.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.ae2ccc1f.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.f7ea7482.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.f7ea7482.js.map",
+    "static/js/2.996f5ef0.chunk.js": "/Portfolio/static/js/2.996f5ef0.chunk.js",
+    "static/js/2.996f5ef0.chunk.js.map": "/Portfolio/static/js/2.996f5ef0.chunk.js.map",
+    "static/js/3.c1bbbf77.chunk.js": "/Portfolio/static/js/3.c1bbbf77.chunk.js",
+    "static/js/3.c1bbbf77.chunk.js.map": "/Portfolio/static/js/3.c1bbbf77.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.c77c8a42.chunk.css.map": "/Portfolio/static/css/main.c77c8a42.chunk.css.map",
-    "static/js/2.0f62ee81.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.0f62ee81.chunk.js.LICENSE.txt"
+    "static/css/main.453b146d.chunk.css.map": "/Portfolio/static/css/main.453b146d.chunk.css.map",
+    "static/js/2.996f5ef0.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.996f5ef0.chunk.js.LICENSE.txt",
+    "static/media/Title.module.css": "/Portfolio/static/media/17547.f8656085.eot",
+    "static/media/Nav.module.css": "/Portfolio/static/media/Bazar.ed9936d5.svg",
+    "static/media/App.css": "/Portfolio/static/media/grain-wall-pattern_1053-174.84ec7828.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.51258010.js",
-    "static/js/2.0f62ee81.chunk.js",
-    "static/css/main.c77c8a42.chunk.css",
-    "static/js/main.8da26eb5.chunk.js"
+    "static/js/runtime-main.f7ea7482.js",
+    "static/js/2.996f5ef0.chunk.js",
+    "static/css/main.453b146d.chunk.css",
+    "static/js/main.ae2ccc1f.chunk.js"
   ]
 }
