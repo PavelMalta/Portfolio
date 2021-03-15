@@ -1,6 +1,6 @@
 import React from "react";
 import s from "./Contact.module.css"
-import {Title} from "../title/Title";
+import {Title} from "../common/components/title/Title";
 
 
 export function Contact() {

@@ -1,6 +1,6 @@
 .projectsBlock {
     min-height: 100vh;
-    background-color: #9fa9ff;
+    background-color: rgba(230, 137, 102, .9);
 }
 
 .projectsContainer {
@@ -9,6 +9,7 @@
 }
 
 .projects {
+    margin-top: 30px;
     border: 1px solid;
     width: 100%;
     display: flex;

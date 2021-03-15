@@ -2,7 +2,7 @@ import React from "react";
 import s from './Skills.module.css'
 import styleContainer from '../../src/common/styles/Container.module.css'
 import {Skill} from "./skill/Skill";
-import {Title} from "../title/Title";
+import {Title} from "../common/components/title/Title";
 
 export function Skills () {
     const description = 'An integrated development environment in JavaScript, ' +

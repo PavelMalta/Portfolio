@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Bazar';
+    src: url('../../common/fonts/Bazar.eot');
+    src: local('☺'), url('../../common/fonts/Bazar.woff') format('woff'), url('../../common/fonts/Bazar.ttf') format('truetype'), url('../../common/fonts/Bazar.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .skill {
     width: 250px;
     background-color: cadetblue;
@@ -10,6 +18,11 @@
 
 }
 
+.skill h3 {
+    font-family: 'Bazar', sans-serif;
+    text-transform: uppercase;
+}
+
 .icon {
     height: 60px;
     width: 60px;
@@ -17,5 +30,5 @@
 }
 
 .description {
-
+    font-family: "Roboto Slab", sans-serif;
 }

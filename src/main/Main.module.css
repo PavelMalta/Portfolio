@@ -1,11 +1,19 @@
+@font-face {
+    font-family: 'Bazar';
+    src: url('../common/fonts/Bazar.eot');
+    src: local('☺'), url('../common/fonts/Bazar.woff') format('woff'), url('../common/fonts/Bazar.ttf') format('truetype'), url('../common/fonts/Bazar.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .mainBlock {
     min-height: 100vh;
-    background-color: #78bbbb;
+    background-color: rgba(120, 187, 187, .9);
 }
 
 .greeting {
     width: 350px;
-    background-color: #F6EDD8;
+
 }
 
 .photo {
@@ -15,7 +23,9 @@
 }
 
 .name {
-    text-shadow: 1px 2px #fcfaf7, 3px 4px #484a4d;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Bazar', serif;
     text-transform: uppercase;
+    color: #F6EDD8;
+    font-size: 60px;
+    margin: 0 0 0;
 }

@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Bazar';
+    src: url('../../common/fonts/Bazar.eot');
+    src: local('☺'), url('../../common/fonts/Bazar.woff') format('woff'), url('../../common/fonts/Bazar.ttf') format('truetype'), url('../../common/fonts/Bazar.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .project {
     width: 300px;
     background-color: cadetblue;
@@ -7,6 +15,15 @@
     text-align: center;
     padding: 20px;
     box-sizing: border-box;
+}
+
+.project h3 {
+    font-family: 'Bazar', sans-serif;
+    text-transform: uppercase;
+}
+
+.description {
+    font-family: "Roboto Slab", sans-serif;
 }
 
 .imgContainer {

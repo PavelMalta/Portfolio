@@ -2,7 +2,7 @@ import React from "react";
 import s from "./MyProjects.module.css"
 import styleContainer from "../common/styles/Container.module.css";
 import {Project} from "./project/Project";
-import {Title} from "../title/Title";
+import {Title} from "../common/components/title/Title";
 
 
 export function MyProjects () {
