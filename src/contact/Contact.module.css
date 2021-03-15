@@ -6,6 +6,13 @@
 .contactsContainer {
     min-height: 70vh;
     flex-direction: column;
+    width: 85%;
+    border: 1px solid;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .title{
