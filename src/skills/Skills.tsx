@@ -10,6 +10,7 @@ export function Skills () {
                         'the IntelliJ IDEA platform. WebStorm provides auto-completion'
     return(
         <div className={s.skillsBlock}>
+            <hr className={styleContainer.top_dashed}/>
             <div className={`${styleContainer.container} ${s.skillsContainer}`}>
                 <Title title={'Skills'}/>
                 <div className={s.skills}>
@@ -18,6 +19,7 @@ export function Skills () {
                     <Skill title={"JS"} description={description}/>
                 </div>
             </div>
+            <hr className={styleContainer.bottom_dashed}/>
         </div>
     )
 }

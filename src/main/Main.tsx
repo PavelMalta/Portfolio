@@ -5,6 +5,7 @@ import styleContainer from '../../src/common/styles/Container.module.css'
 export function Main() {
     return (
         <div className={s.mainBlock}>
+            <hr className={styleContainer.top_dashed}/>
             <div className={styleContainer.container}>
                 <div className={s.greeting}>
                     <span>Hi There</span>
@@ -13,6 +14,7 @@ export function Main() {
                 </div>
                 <div className={s.photo}></div>
             </div>
+            <hr className={styleContainer.bottom_dashed}/>
         </div>
     )
 }

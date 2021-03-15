@@ -1,6 +1,8 @@
 .contactsBlock {
     min-height: 70vh;
-    background-color: rgba(227, 224, 221, .9);;
+    background-color: rgba(227, 224, 221, .9);
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.15);
 }
 
 .contactsContainer {

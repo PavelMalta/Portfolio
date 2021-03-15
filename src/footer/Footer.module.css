@@ -1,6 +1,7 @@
 .footerBlock {
     min-height: 30vh;
     background-color: rgba(76, 80, 87, .9);
+    padding: 20px 0;
 }
 
 .footerContainer {

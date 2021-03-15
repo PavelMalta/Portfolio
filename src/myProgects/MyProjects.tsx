@@ -12,6 +12,7 @@ export function MyProjects () {
                         "organize your work time."
 return (
     <div className={s.projectsBlock}>
+        <hr className={styleContainer.top_dashed}/>
         <div className={`${styleContainer.container} ${s.projectsContainer}`}>
             <Title title={'My projects'}/>
             <div className={s.projects}>
@@ -19,6 +20,7 @@ return (
                 <Project title={"Social network"} description={description}/>
             </div>
         </div>
+        <hr className={styleContainer.bottom_dashed}/>
     </div>
 )
 }
