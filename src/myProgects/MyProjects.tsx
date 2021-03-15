@@ -2,6 +2,7 @@ import React from "react";
 import s from "./MyProjects.module.css"
 import styleContainer from "../common/styles/Container.module.css";
 import {Project} from "./project/Project";
+import {Title} from "../title/Title";
 
 
 export function MyProjects () {
@@ -12,7 +13,7 @@ export function MyProjects () {
 return (
     <div className={s.projectsBlock}>
         <div className={`${styleContainer.container} ${s.projectsContainer}`}>
-            <h2 className={s.title}>My projects</h2>
+            <Title title={'My projects'}/>
             <div className={s.projects}>
                 <Project title={"TodoList"} description={description}/>
                 <Project title={"Social network"} description={description}/>
