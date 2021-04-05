@@ -12,12 +12,12 @@ export function Project(props: ProjectPropsType) {
     return (
         <div className={s.project}>
             <div style={props.style} className={s.imgContainer}>
-                <button>See</button>
+                <button className={s.default}>See</button>
             </div>
             <h3 className={s.projectTitle}>{props.title}</h3>
-            <span className={s.description}>
+            <div className={s.description}>
                 {props.description}
-            </span>
+            </div>
         </div>
     )
 }
