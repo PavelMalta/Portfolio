@@ -1,5 +1,5 @@
 import React from "react";
-import s from "./MyProjects.module.css"
+import s from "./MyProjects.module.scss"
 import styleContainer from "../common/styles/Container.module.css";
 import {Project} from "./project/Project";
 import {Title} from "../common/components/title/Title";
