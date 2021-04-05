@@ -1,3 +1,5 @@
+@import '../../styles/sass/variables';
+
 @font-face {
     font-family: 'Bazar';
     src: url('../../fonts/Bazar.eot');
@@ -15,6 +17,7 @@
 
 .container {
     .title {
+        color: $textColor;
         margin-bottom: 5px;
         margin-top: 30px;
         & h2{
@@ -61,17 +64,3 @@
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

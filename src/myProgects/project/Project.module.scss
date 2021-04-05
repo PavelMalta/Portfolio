@@ -1,3 +1,5 @@
+@import '../../common/styles/sass/variables';
+
 @font-face {
   font-family: 'Bazar';
   src: url('../../common/fonts/Bazar.eot');
@@ -7,9 +9,10 @@
 }
 
 .project {
+  padding: 5px;
   border-radius: 15px;
   width: 350px;
-  background-color: cadetblue;
+  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,7 +28,7 @@
     background-color: olive;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -54,11 +57,13 @@
   }
 
   .projectTitle {
+    color: $textColor;
     font-family: 'Bazar', sans-serif;
     text-transform: uppercase;
   }
 
   .description {
+    color: $textColor;
     font-family: "Roboto Slab", sans-serif;
     line-height: 1.8;
     margin: 0 20px 1.6em 20px;
