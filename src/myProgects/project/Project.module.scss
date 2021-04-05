@@ -1,36 +1,23 @@
 @font-face {
-    font-family: 'Bazar';
-    src: url('../../common/fonts/Bazar.eot');
-    src: local('☺'), url('../../common/fonts/Bazar.woff') format('woff'), url('../../common/fonts/Bazar.ttf') format('truetype'), url('../../common/fonts/Bazar.svg') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Bazar';
+  src: url('../../common/fonts/Bazar.eot');
+  src: local('☺'), url('../../common/fonts/Bazar.woff') format('woff'), url('../../common/fonts/Bazar.ttf') format('truetype'), url('../../common/fonts/Bazar.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 .project {
-    border-radius: 15px;
-    width: 350px;
-    background-color: cadetblue;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    box-sizing: border-box;
-    margin-top: 10px;
-}
+  border-radius: 15px;
+  width: 350px;
+  background-color: cadetblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  margin-top: 10px;
 
-.projectTitle {
-    font-family: 'Bazar', sans-serif;
-    text-transform: uppercase;
-}
-
-.description {
-    font-family: "Roboto Slab", sans-serif;
-    line-height: 1.8;
-    margin: 0 20px 1.6em 20px;
-    font-size: 12px
-}
-
-.imgContainer {
+  .imgContainer {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     width: 100%;
@@ -43,25 +30,47 @@
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
+
+    &::before {
+      position: absolute;
+      content: "";
+      background-color: black;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      opacity: 0.4;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+    }
+
+    .default {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      position: relative;
+      z-index: 1;
+    }
+  }
+
+  .projectTitle {
+    font-family: 'Bazar', sans-serif;
+    text-transform: uppercase;
+  }
+
+  .description {
+    font-family: "Roboto Slab", sans-serif;
+    line-height: 1.8;
+    margin: 0 20px 1.6em 20px;
+    font-size: 12px
+  }
 }
 
-.imgContainer::before {
-    position: absolute;
-    content: "";
-    background-color: black;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    opacity: 0.4;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
 
-.default {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    position: relative;
-    z-index: 1;
-}
+
+
+
+
+
+
+
