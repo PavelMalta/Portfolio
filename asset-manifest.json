@@ -1,25 +1,28 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.60806f5f.chunk.css",
-    "main.js": "/Portfolio/static/js/main.21270e76.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.21270e76.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.6b3e273c.chunk.css",
+    "main.js": "/Portfolio/static/js/main.f7469850.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.f7469850.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.f7ea7482.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.f7ea7482.js.map",
-    "static/js/2.27895232.chunk.js": "/Portfolio/static/js/2.27895232.chunk.js",
-    "static/js/2.27895232.chunk.js.map": "/Portfolio/static/js/2.27895232.chunk.js.map",
+    "static/js/2.8e5826ac.chunk.js": "/Portfolio/static/js/2.8e5826ac.chunk.js",
+    "static/js/2.8e5826ac.chunk.js.map": "/Portfolio/static/js/2.8e5826ac.chunk.js.map",
     "static/js/3.c1bbbf77.chunk.js": "/Portfolio/static/js/3.c1bbbf77.chunk.js",
     "static/js/3.c1bbbf77.chunk.js.map": "/Portfolio/static/js/3.c1bbbf77.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.60806f5f.chunk.css.map": "/Portfolio/static/css/main.60806f5f.chunk.css.map",
-    "static/js/2.27895232.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.27895232.chunk.js.LICENSE.txt",
-    "static/media/Title.module.css": "/Portfolio/static/media/17547.f8656085.eot",
+    "static/css/main.6b3e273c.chunk.css.map": "/Portfolio/static/css/main.6b3e273c.chunk.css.map",
+    "static/js/2.8e5826ac.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.8e5826ac.chunk.js.LICENSE.txt",
+    "static/media/Title.module.scss": "/Portfolio/static/media/17547.f8656085.eot",
     "static/media/Nav.module.css": "/Portfolio/static/media/Bazar.ed9936d5.svg",
-    "static/media/App.css": "/Portfolio/static/media/grain-wall-pattern_1053-174.84ec7828.png"
+    "static/media/counter.c5b3a16b.jpg": "/Portfolio/static/media/counter.c5b3a16b.jpg",
+    "static/media/App.css": "/Portfolio/static/media/grain-wall-pattern_1053-174.84ec7828.png",
+    "static/media/socialnetwork.3c7ebe7c.jpg": "/Portfolio/static/media/socialnetwork.3c7ebe7c.jpg",
+    "static/media/todolist.ecc006b5.jpg": "/Portfolio/static/media/todolist.ecc006b5.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.f7ea7482.js",
-    "static/js/2.27895232.chunk.js",
-    "static/css/main.60806f5f.chunk.css",
-    "static/js/main.21270e76.chunk.js"
+    "static/js/2.8e5826ac.chunk.js",
+    "static/css/main.6b3e273c.chunk.css",
+    "static/js/main.f7469850.chunk.js"
   ]
 }
