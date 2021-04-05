@@ -3,6 +3,7 @@ import s from "./Project.module.css"
 
 
 type ProjectPropsType = {
+    style: object
     title: string
     description: string
 }
@@ -10,7 +11,7 @@ type ProjectPropsType = {
 export function Project(props: ProjectPropsType) {
     return (
         <div className={s.project}>
-            <div className={s.imgContainer}>
+            <div style={props.style} className={s.imgContainer}>
                 <button>See</button>
             </div>
             <h3 className={s.projectTitle}>{props.title}</h3>

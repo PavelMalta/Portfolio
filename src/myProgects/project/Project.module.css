@@ -7,7 +7,7 @@
 }
 
 .project {
-    width: 300px;
+    width: 350px;
     background-color: cadetblue;
     display: flex;
     flex-direction: column;
@@ -15,6 +15,7 @@
     text-align: center;
     padding: 20px;
     box-sizing: border-box;
+    margin-top: 10px;
 }
 
 .projectTitle {
@@ -37,4 +38,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
