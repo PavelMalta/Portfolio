@@ -10,6 +10,7 @@ export function Skill (props: SkillPropsType) {
     return (
         <div className={s.skill}>
             <div className={s.icon} style={props.style}></div>
+            <span className={s.circle}></span>
             <h3>{props.title}</h3>
         </div>
     )

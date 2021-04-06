@@ -24,6 +24,7 @@
 .skill h3 {
     font-family: 'Bazar', sans-serif;
     text-transform: uppercase;
+    margin: 0 0 10px 0;
 }
 
 .icon {
@@ -35,6 +36,20 @@
     background-repeat: no-repeat;
 }
 
-.description {
-    font-family: "Roboto Slab", sans-serif;
+.circle {
+    position: relative;
+    top: -20px;
+    text-align: center;
+    display: block;
+    width: 44px;
+    height: 44px;
+    line-height: 2;
+    margin: 0 auto;
+    font-size: 24px;
+    color: #828c8e;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+    background: url(../../common/image/icon-eye.jpg);
+    background-size: cover;
 }
+
