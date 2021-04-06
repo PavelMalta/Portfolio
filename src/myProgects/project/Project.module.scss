@@ -1,4 +1,5 @@
 @import '../../common/styles/sass/variables';
+@import '../../common/styles/sass/mixins';
 
 @font-face {
   font-family: 'Bazar';
@@ -63,11 +64,8 @@
   }
 
   .description {
-    color: $textColor;
-    font-family: "Roboto Slab", sans-serif;
-    line-height: 1.8;
     margin: 0 20px 1.6em 20px;
-    font-size: 12px
+    @include text('"Roboto Slab", sans-serif', 12px, 1.8);
   }
 }
 
