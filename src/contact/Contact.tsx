@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, {useEffect, useState} from "react";
 import s from "./Contact.module.css"
 import {Title} from "../common/components/title/Title";
 import styleContainer from "../common/styles/Container.module.css";
@@ -8,12 +8,17 @@ import { useFormik } from "formik";
 
 export function Contact() {
 
+    const [body, setBody] = useState({});
+    const [fly, setFly] = useState(false)
+
     useEffect(() => {
-        axios.post('https://smtp-nodejs-ser.herokuapp.com/sendMessage',{})
-            .then((res) => {
-                console.log('ok')
-            })
-    },[])
+        if (fly) {
+            axios.post('https://smtp-nodejs-ser.herokuapp.com/sendMessage', body)
+                .then((res) => {
+                    console.log('ok')
+                })
+        }
+    },[body])
 
     const formik = useFormik({
         initialValues: {
@@ -22,7 +27,8 @@ export function Contact() {
             message: ''
         },
         onSubmit: values => {
-            alert(JSON.stringify(values));
+            setFly(true)
+            setBody(values);
         },
     })
 
