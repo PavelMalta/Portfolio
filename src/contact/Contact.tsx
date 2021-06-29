@@ -43,22 +43,16 @@ export function Contact() {
                     <input type="text"
                            className={s.input}
                            placeholder={"Name"}
-                           name={"name"}
-                           onChange={formik.handleChange}
-                           value={formik.values.name}
+                           {...formik.getFieldProps('name')}
                     />
                     <input type="text"
                            className={s.input}
                            placeholder={"E-mail"}
-                           name={"contacts"}
-                           onChange={formik.handleChange}
-                           value={formik.values.contacts}
+                           {...formik.getFieldProps('contacts')}
                     />
                     <textarea className={s.textarea}
                               placeholder={"Your message"}
-                              name={"message"}
-                              onChange={formik.handleChange}
-                              value={formik.values.message}
+                              {...formik.getFieldProps('message')}
                     />
                 <button type={"submit"}>send</button>
                 </form>
