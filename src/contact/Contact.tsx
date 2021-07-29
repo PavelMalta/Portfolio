@@ -56,7 +56,7 @@ export function Contact() {
                                       rows={7}
                                       {...formik.getFieldProps('message')}
                             />
-                            <button type={"submit"}>send</button>
+                            <input type={"submit"} value={"Send Message"} className={s.button}/>
                         </fieldset>
                     </form>
                 </div>
