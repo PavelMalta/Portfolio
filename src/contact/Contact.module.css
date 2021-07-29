@@ -2,7 +2,7 @@
     min-height: 70vh;
     background-color: rgba(227, 224, 221, .9);
     padding: 20px 0;
-    border-bottom: 1px solid rgba(0,0,0,0.15);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 }
 
 .contactsContainer {
@@ -17,22 +17,42 @@
     flex-wrap: wrap;
 }
 
-.title{
+.title {
     background-color: burlywood;
 }
 
 .contacts {
-    width: 300px;
-    height: 150px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 30px !important;
+    line-height: 1.8;
+    font-size: 1rem;
+}
+
+.fieldset {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 .input {
-    width: 99%;
+    font-weight: 400;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    color: #383A3C;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: "Roboto Slab", sans-serif;
+}
+.input:focus {
+    outline: none;
 }
 
 .textarea {
-    width: 99%;
+    overflow: auto;
+    vertical-align: top;
+    resize: none;
 }
