@@ -10,11 +10,12 @@
    display: flex;
    justify-content: space-around;
    width: 100%;
-   border: 1px solid;
 }
 
-.nav a {
+.nav span {
    font-family: "Bazar", sans-serif;
    text-transform: uppercase;
    color: #F6EDD8;
+   font-size: 32px;
+   cursor: pointer;
 }
