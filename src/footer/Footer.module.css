@@ -8,7 +8,6 @@
     min-height: 30vh;
     flex-direction: column;
     width: 85%;
-    border: 1px solid;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -21,15 +20,21 @@
 }
 
 .containerIcon {
-    border: 1px solid;
     width: 40vh;
     display: flex;
     justify-content: space-between;
 }
 
-.icon {
-    height: 50px;
-    width: 50px;
-    background-color: darkgray;
+.iconSpan {
+    text-align: center;
+    display: block;
+    width: 72px;
+    height: 72px;
+    line-height: 2;
+    margin: 0 auto;
+    font-size: 24px;
+    color: black;
+    background-size: cover;
+    transition: all 0.5s ease;
 }
 
