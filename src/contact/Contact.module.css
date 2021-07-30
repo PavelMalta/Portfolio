@@ -74,4 +74,9 @@
     font-family: "Roboto Slab", sans-serif;
     font-size: 100%;
     vertical-align: baseline;
+    transition: all 0.1s ease;
+}
+
+.button:active {
+    transform: translate(2px, 5px);
 }
