@@ -52,7 +52,7 @@
     font-size: 24px;
     color: #828c8e;
     border-radius: 50%;
-    background: url(../../common/image/icon-eye.jpg);
+    background: white;
     background-size: cover;
     transition: all 0.5s ease;
 }

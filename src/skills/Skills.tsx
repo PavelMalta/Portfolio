@@ -25,8 +25,8 @@ export function Skills () {
             <div className={`${styleContainer.container} ${s.skillsContainer}`}>
                 <Title title={'Skills'}/>
                 <div className={s.skills}>
-                    <Skill title={"HTML"} style={html}/>
-                    <Skill title={"CSS"} style={css}/>
+                    <Skill title={"HTML" as const} style={html}/>
+                    <Skill title={"CSS" as const} style={css}/>
                     <Skill title={"JS"} style={js}/>
                     <Skill title={"React"} style={react}/>
                     <Skill title={"Redux"} style={redux}/>
